@@ -48,7 +48,10 @@ $ npm run start:prod
 ## Testing through the browser
 
 ```bash
-After starting the NestJs server. Open a some browser windows and go to http://localhost:3000. In VS Code look at the output window and see that the clients have connected. Send some messages and your will see all the clients update. As you close browser clients notice that the information in the IDE output shows that a client disconnected.
+After starting the server. Open a some browser windows and go to http://localhost:3000.
+In VS Code look at the output window and see that the clients have connected.
+Send some messages and your will see all the clients update.
+As you close browser clients notice that the information in the IDE output shows that a client disconnected.
 
 I recommend Firefox for testing.
 ```
