@@ -24,7 +24,7 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+This is a simple socket.io web application to demonstrate publish/subscribe messge pattern using NestJs and Web Sockets
 
 ## Installation
 
@@ -45,17 +45,12 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
-## Test
+## Testing through the browser
 
 ```bash
-# unit tests
-$ npm run test
+After starting the NestJs server. Open a some browser windows and go to http://localhost:3000. In VS Code look at the output window and see that the clients have connected. Send some messages and your will see all the clients update. As you close browser clients notice that the information in the IDE output shows that a client disconnected.
 
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
+I recommend Firefox for testing.
 ```
 
 ## Support
