@@ -28,7 +28,8 @@ $ npm run start:prod
 ## Testing through the browser
 
 ```bash
-After starting the server. Open a some browser windows and go to http://localhost:3000.
+After starting the server. Open a some browser windows and go to
+http://localhost:3000/client1.html and http://localhost:3000/client2.html.
 In VS Code look at the output window and see that the clients have connected.
 Send some messages and your will see all the clients update.
 As you close browser clients notice that the information in

@@ -15,6 +15,7 @@
             <div class="row">
                 <div class="col-md-6 offset-md-3 col-sm-12">
                     <h1 class="text-center">{{ title }}</h1>
+                    
                     <br>
                     <div id="status"></div>
                     <div id="chat">
@@ -30,12 +31,12 @@
                         <br>
                         <textarea id="textarea" class="form-control" v-model="text" placeholder="Enter message..."></textarea>
                         <br>
-                        <button id="send" class="btn" @click.prevent="sendMessage">Send</button>
+                        <button id="send" class="btn" @click.prevent="sendMessage">Send</button>&nbsp;<small>channel = msgToClient</small>
                     </div>
                 </div>
             </div>
     </div>
 
-<script src="main.js"></script>
+<script src="client1.js"></script>
 </body>
 </html>
